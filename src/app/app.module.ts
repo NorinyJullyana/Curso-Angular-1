@@ -9,13 +9,15 @@ import { ExtratoComponent } from './extrato/extrato.component';
 import localePt from '@angular/common/locales/pt'
 import { registerLocaleData } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
+import { TestComponent } from './test/test.component';
 
 registerLocaleData(localePt, 'pt');
 @NgModule({
   declarations: [
     AppComponent,
     NovaTransferenciaComponent,
-    ExtratoComponent
+    ExtratoComponent,
+    TestComponent
   ],
   imports: [
 
